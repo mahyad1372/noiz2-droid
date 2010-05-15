@@ -15,7 +15,7 @@ The build script is the bog standard ant script generated with any new Anrdoid p
 
 On windows open a DOS prompt and change directory to point to the base of the project.
 
-Modify the build.bat file t point the the relevant installations.
+Modify the build.bat file to point the the relevant installations.
 
 Type 
 
