@@ -19,6 +19,10 @@ Modify the build.bat file to point the the relevant installations.
 
 Type 
 
->build compile debug
+>build debug
 
 to build the unsigned version of the application.
+
+*NOTE*
+
+The default target for the application is SDK 1.5. This means the build script does not support the automatic keytool implementation by defining the keytool properties (how annoying). To remedy this I have had to add a signing target to the build script.
